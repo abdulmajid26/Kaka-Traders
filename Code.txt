@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kaka Traders</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+    header {
+      background-color: #0056b3;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #007bff;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #0056b3;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #0056b3;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kaka Traders</h1>
+  <p>Electrical • Solar • Home Appliances</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#queries">Queries</a>
+  <a href="#owner">Owner's Message</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to Kaka Traders</h2>
+  <p>Your trusted partner for solar solutions, electrical items, and home appliances. We are committed to bringing you the best products and services in Tando Allahyar.</p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <ul>
+    <li>Solar Panels & Inverters</li>
+    <li>DC/AC Fans & Motors</li>
+    <li>LED Lights & Electrical Fittings</li>
+    <li>Home Appliances: Coolers, Irons, Blenders, etc.</li>
+  </ul>
+</section>
+
+<section id="queries">
+  <h2>Send Us a Query</h2>
+  <form action="mailto:abdulmajidpatoli@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="name" required>
+    
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    
+    <label>Message:</label>
+    <textarea name="message" rows="6" required></textarea>
+    
+    <input type="submit" value="Send Query">
+  </form>
+</section>
+
+<section id="owner">
+  <h2>Owner's Message</h2>
+  <p>
+    Assalamu Alaikum,  
+    <br><br>
+    I’m Abdul Majid, owner of Kaka Traders. Our goal is to provide the best quality solar products, reliable electrical items, and affordable home appliances to our community. We believe in honest service, trusted products, and the most reasonable rates for our customers.  
+    <br><br>
+    Thank you for your trust and support.
+  </p>
+</section>
+
+<footer>
+  <p>Contact: 0320-3176946 | Address: Old Ice Factory, Chamber Road, Tando Allahyar</p>
+</footer>
+
+</body>
+</html>
